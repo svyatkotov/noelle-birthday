@@ -1,11 +1,37 @@
-body {
-    margin: 0;
+body, h1, h2, h3, p {
+    margin: 0; 
 }
 
-div {
+.positioner {
     margin: 0 auto;
     width: 800px;
     text-align: center;
+}
+
+.congratulation, .videos-header, .video {
+    display: flex;
+    align-items: center;
+    height: 110vh;
+}
+
+.congratulation {
+    background-color: rgb(243, 245, 124);
+}
+
+.videos-header {
+    background-color: rgb(179, 252, 150);
+}
+
+.video:nth-of-type(1) {
+    background-color: rgb(120, 212, 84);
+}
+
+.video:nth-of-type(2) {
+    background-color: rgb(58, 139, 26);
+}
+
+.video:nth-of-type(3) {
+    background-color: rgb(36, 83, 18)
 }
 
 video {
