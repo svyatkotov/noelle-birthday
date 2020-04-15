@@ -1,5 +1,14 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h1, h2, h3 {
+    font-size: 60px;
+}
+
 body, h1, h2, h3, p {
-    margin: 0; 
+    margin: 0;
 }
 
 .positioner {
@@ -12,6 +21,30 @@ body, h1, h2, h3, p {
     display: flex;
     align-items: center;
     height: 110vh;
+}
+
+/*.congratulation .positioner {
+    margin-bottom: 110px;
+}*/
+
+.congratulation-img {
+    margin: 25px 0;
+    height: 700px;
+    background-image: url("files/Noel.JPG");
+    background-size: cover;
+}
+
+.congratulation-hat {
+    height: 300px;
+    width: 250px;
+    margin-left: 370px;
+    background-image: url("files/hat-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.disabled {
+    display: none;
 }
 
 .congratulation {
