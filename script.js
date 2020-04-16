@@ -1,5 +1,6 @@
 "use strict"
 
+//hat behavior
 let hat = document.querySelector('.congratulation-hat');
 let img = document.querySelector('.congratulation-img');
 
@@ -10,3 +11,5 @@ img.onmouseover = function () {
 img.onmouseout = function () {
     hat.classList.toggle('disabled');
 };
+
+//scroll behavior
