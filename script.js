@@ -13,3 +13,5 @@ img.onmouseout = function () {
 };
 
 //scroll behavior
+let scroll = document.querySelector('body');
+console.log(scroll);

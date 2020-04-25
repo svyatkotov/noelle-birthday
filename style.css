@@ -4,6 +4,7 @@
 }
 
 *::-webkit-scrollbar {
+    content: attr("scrollbar");
     width: 18px;
 }
 
@@ -18,11 +19,11 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto", sans-serif;;
     font-size: 30px;
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-size: 60px;
 }
 
@@ -30,7 +31,7 @@ body, h1, h2, h3, p {
     margin: 0;
 }
 
-.positioner {
+.positioner, .playful {
     margin: 0 auto;
     width: 800px;
     text-align: center;
@@ -58,12 +59,32 @@ body, h1, h2, h3, p {
     background-size: cover;
 }
 
+.congratulation-text {
+    color: #FF5555;
+    font-weight: bold;
+}
+
 .disabled {
     display: none;
 }
 
 video {
     margin-top: 25px;
+}
+
+.video:nth-of-type(1) .video-header,
+.video:nth-of-type(1) .video-text {
+    color: rgb(230, 143, 14);
+}
+
+.video:nth-of-type(2) .video-header,
+.video:nth-of-type(2) .video-text {
+    color: rgb(226, 161, 64);
+}
+
+.video:nth-of-type(3) .video-header,
+.video:nth-of-type(3) .video-text {
+    color: rgb(226, 161, 64);
 }
 
 .congratulation {
